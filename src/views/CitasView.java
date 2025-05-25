@@ -19,7 +19,7 @@ public class CitasView {
         this.entrada = new Scanner(System.in);
     }
     
-    public void mostrarMenu(){
+    public void mostrarMenuCit(){
         int opcion;
         do {      
             

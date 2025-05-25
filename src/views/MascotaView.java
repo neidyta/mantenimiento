@@ -19,7 +19,7 @@ public class MascotaView {
         this.entrada = new Scanner(System.in);
     }
     
-    public void mostrarMenu(){
+    public void mostrarMenuMas(){
         int opcion;
         do {      
             System.out.println("\n == MENU MASCOTAS ==");
