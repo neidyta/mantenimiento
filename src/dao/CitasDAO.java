@@ -18,7 +18,7 @@ import models.Citas;
 public class CitasDAO {
     
     
-    public void agregarCita(Citas citas){
+    public void agregarCitas(Citas citas){
         String sql = "INSERT INTO citas (mascota, veterinario, fecha, motivo) VALUES (?, ?, ?, ?)";
         
         try (Connection conn = DatabaseConnection.getConnection();
